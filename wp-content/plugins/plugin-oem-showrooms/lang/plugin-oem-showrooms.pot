@@ -1,0 +1,221 @@
+# Copyright (C) 2015 New Boat Showrooms
+# This file is distributed under the same license as the New Boat Showrooms package.
+msgid ""
+msgstr ""
+"Project-Id-Version: New Boat Showrooms 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/plugin-oem-"
+"showrooms\n"
+"POT-Creation-Date: 2015-06-03 22:50:49+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class-oem-showrooms-settings.php:34 settings.php:28
+msgid "New Boat Showrooms Settings"
+msgstr ""
+
+#: includes/class-oem-showrooms-settings.php:35
+msgid "Boat Showrooms"
+msgstr ""
+
+#: includes/class-oem-showrooms-settings.php:85
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/class-oem-showrooms-settings.php:141
+msgid "Settings"
+msgstr ""
+
+#: includes/class-oem-showrooms-settings.php:142 settings.php:21
+msgid "Run Import"
+msgstr ""
+
+#: includes/class-oem-showrooms-settings.php:222
+msgid "Manufacturer Showrooms Details Page"
+msgstr ""
+
+#: includes/class-oem-showrooms-settings.php:237
+msgid "Manufacturer Showrooms"
+msgstr ""
+
+#: includes/class-oem-showrooms.php:120
+msgid "Once Weekly"
+msgstr ""
+
+#: includes/class-oem-showrooms.php:129 includes/class-oem-showrooms.php:138
+msgid "Once Bi-Weekly"
+msgstr ""
+
+#: run-import.php:4
+msgid "Importing Supported Brands..."
+msgstr ""
+
+#: run-import.php:7
+msgid "Import Details"
+msgstr ""
+
+#: run-import.php:9
+msgid "Total number of brands found"
+msgstr ""
+
+#: run-import.php:11
+msgid "Supported Brands Imported"
+msgstr ""
+
+#: run-import.php:13
+msgid "MMP API Tests"
+msgstr ""
+
+#: run-import.php:14
+msgid "Pass"
+msgstr ""
+
+#: run-import.php:14
+msgid "Fail"
+msgstr ""
+
+#: settings.php:13
+msgid ""
+"MMP API Key and IMT Party ID are required for this plugin! Please enable "
+"core plugin and make sure these settings are updated before you configure "
+"this plugin."
+msgstr ""
+
+#: settings.php:20
+msgid "No supported brands found. Please run a successful import first!"
+msgstr ""
+
+#: settings.php:35
+msgid "General Settings"
+msgstr ""
+
+#: settings.php:38
+msgid "Provisioning Service URL"
+msgstr ""
+
+#: settings.php:40 settings.php:48 settings.php:55
+msgid "Not Set"
+msgstr ""
+
+#: settings.php:46
+msgid "IMT Party ID"
+msgstr ""
+
+#: settings.php:53
+msgid "MMP API Key"
+msgstr ""
+
+#: settings.php:60
+msgid "Import Frequency"
+msgstr ""
+
+#: settings.php:63
+msgid "Daily"
+msgstr ""
+
+#: settings.php:64
+msgid "Weekly"
+msgstr ""
+
+#: settings.php:65
+msgid "Bi-Weekly"
+msgstr ""
+
+#: settings.php:66
+msgid "Monthly"
+msgstr ""
+
+#: settings.php:68
+msgid "How often do we import supported brands?"
+msgstr ""
+
+#: settings.php:75
+msgid "Permalinks for Showrooms"
+msgstr ""
+
+#: settings.php:78
+msgid "Showrooms Details Page"
+msgstr ""
+
+#: settings.php:81
+msgid "Supported dynamic tags"
+msgstr ""
+
+#: settings.php:82
+msgid "Example"
+msgstr ""
+
+#: settings.php:91
+msgid "Showroom Landing and Brand Pages"
+msgstr ""
+
+#: settings.php:96
+msgid "Showrooms Landing Page"
+msgstr ""
+
+#: settings.php:101
+msgid ""
+"This is manufacturers landing page where the list of supported brands is "
+"displayed."
+msgstr ""
+
+#: settings.php:105
+msgid "Showrooms Detail Page"
+msgstr ""
+
+#: settings.php:110
+msgid "This is manufacturer model detail page"
+msgstr ""
+
+#: settings.php:127
+msgid "Hide this brand"
+msgstr ""
+
+#: settings.php:131
+msgid "Exclude"
+msgstr ""
+
+#: settings.php:157
+msgid "Brand Imports"
+msgstr ""
+
+#: settings.php:158
+msgid "Last imported on"
+msgstr ""
+
+#: settings.php:159
+msgid "Never"
+msgstr ""
+
+#: settings.php:161
+msgid "Below is the list of brands supported."
+msgstr ""
+
+#: settings.php:162
+msgid ""
+"These are the brands that will show under manufacturer showrooms section of "
+"the website."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "New Boat Showrooms"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://github.dominionenterprises.com/DMM-CW-US/plugin-new-boat-showrooms"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin handles provisioning brand imports and presentation for New Boat "
+"Showrooms. Requires classes and options in DMM Core plugin. See Github "
+"README.md for more info."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tim Hysniu <tim.hysniu@dominionmarinemedia.com>"
+msgstr ""

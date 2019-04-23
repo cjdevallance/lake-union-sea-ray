@@ -1,0 +1,278 @@
+.wrap h2 {
+	font-size: 20px;
+	line-height: 29px;
+	font-weight: 600;
+	color: #999;
+	margin-left: 30px;
+}
+
+.intro-text {
+	font-size: 16px;
+	margin-left: 30px;
+}
+
+#loading-content {
+	display: none;
+	height: 200px;
+	margin-top: 20px;
+	float: left;
+	width: 101%;
+	padding: 10px;
+	margin-left: -22px;
+}
+
+#loading-content img {
+	top: 50%;
+	left: 50%;
+	position: relative;
+	width: 60px;
+	margin-top: -25px;
+	margin-left: -25px;	
+}
+
+#show-inventories {
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+
+#add-inventories {
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+
+.btn {
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #0074a2);
+	background-image: -moz-linear-gradient(top, #3498db, #0074a2);
+	background-image: -ms-linear-gradient(top, #3498db, #0074a2);
+	background-image: -o-linear-gradient(top, #3498db, #0074a2);
+	background-image: linear-gradient(to bottom, #3498db, #0074a2);
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
+
+#display-single {
+	width: 94%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 40px;
+	padding: 10px;
+	background: none repeat scroll 0% 0% #FBF9F9;
+	box-shadow: 0px 0px 2px 1px #D1D1D1;
+}
+
+.current_displays {
+	margin-bottom: 20px;
+	float: left;
+	width: 101%;
+	padding: 10px;
+	margin-left: -22px;
+}
+
+.current_displays button:focus {
+    border: none!important;
+    outline: 0;	
+}
+
+.current_displays h3 {
+	color: #747474;
+}
+
+#current_displays {
+  border: none;
+  width: 98%;
+  text-align: left;
+  background: none;
+  margin-left: 40px;
+}
+
+.inv_table {
+  width: 95%;
+  float: left;
+  margin-top: 10px;
+  font-size: 12px;
+  margin-left: 40px;
+  background: #fff;
+  box-shadow: 0px 0px 2px 1px #D1D1D1;
+}
+
+.inv_table ul {
+	width: 100%;
+	height: 30px;
+	font-weight: 600;
+	padding-top: 15px;
+	background-color: #77d5d4;
+	color: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-top: -5px;	
+}
+
+.inv_table ul li {
+	float: left;
+	width: 10%;
+	padding-left: 10px;	
+}
+
+.inv_table .list_cond {
+	width: 10%;
+}
+
+.inv_table .list_manu {
+	width: 40%;
+}
+
+.inv_table .list_remove {
+	width: 10%;
+}
+
+.inv_list_area {
+  margin-bottom: 39px;
+  background-color: #fff;
+  color: #626262;
+}
+.inv_res {
+  height: 40px;
+  padding-top: 20px;
+  background-color: #f7f7f7;
+}
+.inv_res_even {
+  height: 30px;
+  padding-top: 10px;
+}
+.inv_block {
+  float: left;
+  padding-left: 10px;
+  height: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.inv_id {
+  width: 10%;
+}
+.inv_cond {
+  width: 10%;
+}
+.inv_manuarea {
+  width: 40%;
+
+}
+.inv_manu {
+  width: 86%;
+  overflow: hidden;
+  float: left;
+}
+.inv_view {
+  width: 10%;
+}
+.inv_edit {
+  width: 10%;
+}
+.inv_all_manu {
+  display: none;
+  position: absolute;
+  margin-top: -20px;
+  width: 34%;
+  padding: 20px;
+  background: #222;
+  color: #e8e8e8;
+}
+#close_all_manu {
+  cursor: pointer;
+  float: right;
+  margin-top: -10px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #fff;
+}
+#text_all_menu {
+  float: left;
+  width: 100%;
+  white-space: normal;
+}
+.del_wrapper {
+  width: 10%;
+  text-decoration: none;
+  cursor: pointer;
+  float: left;
+  margin-right: 40px;
+}
+
+.del_wrapper a {
+	text-decoration:none ;
+}
+
+.more {
+  float: left;
+  cursor: pointer;
+  color: #377ad7;
+  margin-left: 10px;
+}
+#removed {
+  display: none;
+  color: #e40000;
+  position: absolute;
+  margin-top: 85px;
+}
+.add-new-inventory {
+  display: none;
+}
+.inventory-form {
+  margin-bottom: 16px;
+  float: left;
+  width: 101%;
+  padding: 10px;
+  margin-left: -22px;
+}
+
+.inventory-form h3 {
+	color: #747474;
+}
+
+.inventory-form button:focus {
+    border: none!important;
+    outline: 0;	
+}
+
+#add_displays {
+  border: none;
+  width: 98%;
+  text-align: left;
+  background: none;
+  margin-left: 40px;
+}
+.makeinput {
+  float: left;
+  width: 200px;
+}
+p.submit {
+  clear: both;
+}
+.total_manufacturers {
+  float: right;
+  margin-right: 20%;
+}
+
+.total_manufacturers span {
+	font-weight: 600;
+}

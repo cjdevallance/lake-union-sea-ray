@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProcessSalesLead releaseID="5.4.4" systemEnvironmentCode="Test" xmlns:ns2="http://www.openapplications.org/oagis/9" xmlns="http://www.starstandard.org/STAR/5">
+    <ApplicationArea>
+        <Sender>
+            <TaskID>ProcessSalesLead</TaskID>
+            <CreatorNameCode>BC</CreatorNameCode>
+            <SenderNameCode>BC</SenderNameCode>
+            <URI>Boats.com</URI>
+        </Sender>
+        <CreationDateTime>2015-06-05T11:08:23-07:00</CreationDateTime>
+        <Destination>
+            <DestinationNameCode>BC</DestinationNameCode>
+        </Destination>
+    </ApplicationArea>
+    <ProcessSalesLeadDataArea>
+        <Process/>
+        <SalesLead>
+            <SalesLeadHeader>
+                <DocumentIdentificationGroup>
+                    <DocumentIdentification>
+                        <DocumentID>fed1c0c691de343d7a165d81264cbbf6</DocumentID>
+                    </DocumentIdentification>
+                </DocumentIdentificationGroup>
+                <SaleClassCode>Used</SaleClassCode>
+                <LeadSourceCode>Boats.com</LeadSourceCode>
+                <LeadComments>You have received a lead from:
+Reinaldo Camera
+Reycamera@aol.com
+
+Planned Purchase: 0-3 Months
+
+More Information Requested:
+http://www.boats.com/listing/boat_details.jsp?entityid=162295721
+Boat Make: Robalo
+Boat Model: R-265 Walk Around
+Boat Year: 2003
+
+
+"I am interested in the Listing #16229572 2003 26 ft Robalo R-265 Walk Around on Boats.com. Please send me more photos and information. Thank you."
+
+Reinaldo Camera
+Reycamera@aol.com
+
+Planned Purchase: 0-3 Months</LeadComments>
+                <CustomerProspect>
+                    <ProspectParty>
+                        <SpecifiedPerson>
+                            <GivenName>Reinaldo</GivenName>
+                            <FamilyName>Camera</FamilyName>
+                            <ResidenceAddress>
+                                <CountryID>US</CountryID>
+                            </ResidenceAddress>
+                            <URICommunication>
+                                <URIID>Reycamera@aol.com</URIID>
+                                <ChannelCode>email</ChannelCode>
+                            </URICommunication>
+                        </SpecifiedPerson>
+                    </ProspectParty>
+                </CustomerProspect>
+                <ReceivingDealerParty>
+                    <SpecifiedOrganization>
+                        <BusinessTypeCode>provisioning</BusinessTypeCode>
+                        <OrganizationID>20680</OrganizationID>
+                    </SpecifiedOrganization>
+                </ReceivingDealerParty>
+                <Marketing>
+                    <ProgramIdDescription>Boats.com website</ProgramIdDescription>
+                    <MarketingID>16229572</MarketingID>
+                </Marketing>
+                <Marketing>
+                    <ProgramIdDescription>DMM IMT</ProgramIdDescription>
+                    <MarketingID>4504936</MarketingID>
+                </Marketing>
+                <LeadCreationDateTime>2015-06-05T10:08:04-08:00</LeadCreationDateTime>
+            </SalesLeadHeader>
+            <SalesLeadDetail>
+                <LeadStatus>Lead</LeadStatus>
+                <LeadRequestTypeString>INTERESTED-IN</LeadRequestTypeString>
+                <SalesLeadLineItem>
+                    <SalesLeadMarineLineItem>
+                        <SalesLeadBoatLineItem>
+                            <AdditionalMedia>
+                                <MediaSourceURI>http://www.boats.com/listing/boat_details.jsp?entityid=162295721</MediaSourceURI>
+                            </AdditionalMedia>
+                            <SalesLeadBoat>
+                                <MakeString>Robalo</MakeString>
+                                <ModelDescription>R-265 Walk Around</ModelDescription>
+                                <ModelYear>2003</ModelYear>
+                                <BoatLengthGroup>
+                                    <BoatLengthMeasure unitCode="feet">26.0</BoatLengthMeasure>
+                                </BoatLengthGroup>
+                            </SalesLeadBoat>
+                        </SalesLeadBoatLineItem>
+                    </SalesLeadMarineLineItem>
+                </SalesLeadLineItem>
+            </SalesLeadDetail>
+        </SalesLead>
+    </ProcessSalesLeadDataArea>
+</ProcessSalesLead>

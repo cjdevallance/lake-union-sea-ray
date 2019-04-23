@@ -1,0 +1,67 @@
+fieldset {
+	background-color:#eee;
+	border:1px solid #ddd;
+	border-radius:15px;
+	padding:15px;
+	margin-top:10px;
+}
+
+legend {
+	font-size:16px;
+	font-weight:bold;
+}
+
+.red {
+	color:red;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+#form-showrooms-settings input[type=text] {
+	width:365px;
+}
+
+#form-showrooms-settings .form-table .col-sm {
+	width: 350px;
+}
+
+.oem-block {
+	width:80%;
+	float:left;
+	background-color:#fff;
+	border:1px solid #ddd;
+	border-radius:10px;
+	padding:15px;
+}
+
+.supported-brand {
+	width: 225px;
+	height:100px;
+	float:left;
+	text-align:center;
+	
+}
+
+.supported-brand div {
+	font-weight:bold;
+	margin-bottom:4px;
+}
+
+.supported-brand img {
+	max-width:175px;
+	max-height:80px;
+}
+
+.supported-brand img.nologo {
+	content:url(/wp-includes/images/media/default.png);
+}
+
+.supported-brand div {
+	text-align:center;
+}
+
+#wpfooter {
+	position: inherit;
+}

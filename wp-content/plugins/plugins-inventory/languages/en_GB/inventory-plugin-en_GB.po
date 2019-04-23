@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: inventory-plugin\n"
+"POT-Creation-Date: 2015-05-15 12:26+0100\n"
+"PO-Revision-Date: 2015-05-15 12:28+0100\n"
+"Last-Translator: Joe Fairman <joe.fairman@dominionmarinemedia.comn>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Language: en_GB\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/class-inventory-plugin-settings.php:43
+#: ../includes/class-inventory-plugin-settings.php:153
+msgid "Inventory Settings"
+msgstr ""
+
+#: ../includes/class-inventory-plugin-settings.php:58
+#: ../includes/class-inventory-plugin.php:186
+msgid "Settings"
+msgstr ""
+
+#: ../includes/class-inventory-plugin-settings.php:89
+msgid "These are the basic settings for the Inventory display."
+msgstr ""
+
+#: ../includes/class-inventory-plugin-settings.php:93
+msgid "API Key"
+msgstr ""
+
+#: ../includes/class-inventory-plugin-settings.php:94
+msgid "This is the Search API Key."
+msgstr ""
+
+#: ../includes/class-inventory-plugin-settings.php:180
+#: ../includes/class-inventory-plugin-settings.php:193
+msgid "API Key:"
+msgstr ""
+
+#: ../includes/class-inventory-plugin-settings.php:185
+#: ../includes/class-inventory-plugin-settings.php:197
+msgid "Party ID:"
+msgstr ""
+
+#: ../includes/class-inventory-plugin-settings.php:201
+msgid "Save Settings"
+msgstr ""
+
+#: ../includes/class-inventory-plugin-settings.php:204
+msgid "Change Key"
+msgstr ""
+
+#: ../includes/class-inventory-plugin.php:130
+msgid "Inventory"
+msgstr ""
+
+#: ../includes/class-inventory-plugin.php:202
+msgid "Inventory Display"
+msgstr ""
+
+#: ../includes/class-inventory-plugin.php:204
+msgid ""
+"This plugin controls the addition and removal of an inventory display from "
+"pages within your website."
+msgstr ""
+
+#: ../includes/class-inventory-plugin.php:205
+msgid ""
+"This plugin will allow you to view a list of active inventory displays and "
+"the page that inventory is displayed on, the condition (New/Used/Both), a "
+"list of Manufactures selected for each display, and an option to remove the "
+"inventory display from each page. You will also be able to add a new "
+"inventory display, select Page to display inventory on (Pulls a list of the "
+"pages in the site), select Condition (New/Used/Both), and choose "
+"manufactures to display (Including option of selecting all/none)"
+msgstr ""
+
+#: ../includes/class-inventory-plugin.php:207
+msgid "Show Current Inventories"
+msgstr ""
+
+#: ../includes/class-inventory-plugin.php:211
+msgid "Add New Inventory Display"
+msgstr ""
+
+#: ../includes/class-inventory-plugin.php:214
+msgid "Add Inventory displays"
+msgstr ""
+
+#: ../includes/class-inventory-plugin.php:218
+msgid "Choose page to display inventory:"
+msgstr ""
+
+#: ../includes/class-inventory-plugin.php:220 ../admin/inventory-edit.php:57
+msgid "Select page"
+msgstr ""
+
+#: ../includes/class-inventory-plugin.php:234 ../admin/inventory-edit.php:70
+msgid "New or Used Boats:"
+msgstr ""
+
+#: ../includes/class-inventory-plugin.php:236 ../admin/inventory-edit.php:75
+msgid "New"
+msgstr ""
+
+#: ../includes/class-inventory-plugin.php:238 ../admin/inventory-edit.php:77
+msgid "Used"
+msgstr ""
+
+#: ../includes/class-inventory-plugin.php:240 ../admin/inventory-edit.php:79
+msgid "All"
+msgstr ""
+
+#: ../includes/class-inventory-plugin.php:243 ../admin/inventory-edit.php:82
+msgid "Choose manufacturers to display:"
+msgstr ""
+
+#: ../includes/class-inventory-plugin.php:331
+msgid "No Inventory selected for this page"
+msgstr ""
+
+#: ../includes/lib/post-type.class.php:37
+#: ../includes/lib/taxonomy.class.php:40
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: ../includes/lib/post-type.class.php:38
+#: ../includes/lib/taxonomy.class.php:37
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: ../includes/lib/post-type.class.php:39
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: ../includes/lib/post-type.class.php:40
+#: ../includes/lib/taxonomy.class.php:36
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: ../includes/lib/post-type.class.php:41
+#: ../includes/lib/taxonomy.class.php:38
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: ../includes/lib/post-type.class.php:42
+#: ../includes/lib/taxonomy.class.php:44
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: ../includes/lib/post-type.class.php:43
+#, php-format
+msgid "No %s Found"
+msgstr ""
+
+#: ../includes/lib/post-type.class.php:44
+#, php-format
+msgid "No %s Found In Trash"
+msgstr ""
+
+#: ../includes/lib/post-type.class.php:45
+#: ../includes/lib/taxonomy.class.php:42
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: ../includes/lib/taxonomy.class.php:39
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: ../includes/lib/taxonomy.class.php:41
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: ../includes/lib/taxonomy.class.php:43
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: ../includes/lib/taxonomy.class.php:45
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: ../includes/lib/taxonomy.class.php:46
+#, php-format
+msgid "Separate %s with commas"
+msgstr ""
+
+#: ../includes/lib/taxonomy.class.php:47
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: ../includes/lib/taxonomy.class.php:48
+#, php-format
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: ../includes/lib/taxonomy.class.php:49
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: ../public/inventory-boat-details.php:18
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" itemprop=\"datePublished\">"
+"%2$s</time> by <span class=\"author\">%3$s</span>"
+msgstr ""
+
+#: ../public/inventory-boat-details.php:41
+msgid "Pages:"
+msgstr ""
+
+#: ../public/inventory-boat-details.php:62
+msgid "Oops, Post Not Found!"
+msgstr ""
+
+#: ../public/inventory-boat-details.php:65
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr ""
+
+#: ../public/inventory-boat-details.php:68
+msgid "This is the error message in the page.php template."
+msgstr ""
+
+#: ../admin/inventory-makes.php:30 ../admin/inventory-edit.php:86
+msgid "Select All/None"
+msgstr ""
+
+#: ../admin/inventory-makes.php:39 ../admin/inventory-edit.php:98
+msgid "No Boats Available"
+msgstr ""
+
+#: ../admin/inventory-edit.php:50
+msgid "Edit Inventory display"
+msgstr ""
+
+#: ../admin/inventory-edit.php:55
+msgid "Page to display inventory:"
+msgstr ""
+
+#: ../admin/inventory-edit.php:105
+msgid "Cancel"
+msgstr ""
+
+#: ../admin/inventory-front.php:18
+msgid "Current Inventory Displays"
+msgstr ""
+
+#: ../admin/inventory-front.php:25
+msgid "Page"
+msgstr ""
+
+#: ../admin/inventory-front.php:26
+msgid "New/Used"
+msgstr ""
+
+#: ../admin/inventory-front.php:27
+msgid "Manufacturers"
+msgstr ""
+
+#: ../admin/inventory-front.php:28
+msgid "View Page"
+msgstr ""
+
+#: ../admin/inventory-front.php:29 ../admin/inventory-front.php:68
+msgid "Edit"
+msgstr ""
+
+#: ../admin/inventory-front.php:30
+msgid "Remove"
+msgstr ""
+
+#: ../admin/inventory-front.php:63
+msgid "View All"
+msgstr ""
+
+#: ../admin/inventory-front.php:67
+msgid "View"
+msgstr ""
+
+#: ../admin/inventory-front.php:69
+msgid "X Remove"
+msgstr ""

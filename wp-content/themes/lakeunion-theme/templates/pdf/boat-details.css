@@ -1,0 +1,89 @@
+body,h1,h2,h3,h4,h5,h6, p, ul, ol, dl, li, div, td, th {
+    font-family: Helvetica, Arial, sans-serif;
+	text-align:left;
+}
+p, ul, ol, dl, li, span, div {
+    font-size:10pt;
+    padding:0;
+}
+
+@page {
+	margin-top:70px;
+	margin-bottom:120px;
+}
+
+h1 {
+	font-size:16pt;
+}
+
+h2 {
+	font-size:13pt;
+}
+
+p {
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+li {
+	margin-left:20px;
+}
+
+img.main {
+	max-width:80%;
+}
+
+div.specs {
+	width:100%;
+	float:left;
+	margin-bottom:10px;
+}
+
+div.specs div18 {
+	width:40%;
+	float:left;
+	margin-top:5px;
+}
+
+div.specs span {
+	font-weight:bold;
+	display:block;
+	width:200px;
+}
+
+#header { 
+    position: fixed; 
+    left:0px; 
+    right:-30px; 
+	top:-60px;
+    height:66px; 
+	text-align:right;
+}
+
+#header img.header-logo {
+	max-width:150px;
+	max-height:66px;
+}
+
+#footer { 
+	color:#555;
+	text-align:center;
+    position: fixed; 
+    left: 0px; 
+    bottom: -190px; 
+    right: 0px; 
+    height: 160px;
+}
+
+#footer .col1 {
+	float:left;
+	width:300px;
+	height:0px;
+	background-color:red;
+}
+
+#footer .col2 {
+	margin-left:50%;
+	height:0px;
+	float:left;
+}
